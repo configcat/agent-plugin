@@ -1,0 +1,54 @@
+{
+  "name": "@configcat/mcp-server",
+  "version": "1.0.0",
+  "description": "ConfigCat MCP (Model Context Protocol) server for AI agent integration with Claude, Cursor and other MCP-compatible AI tools",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "configcat-mcp-server": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node build/index.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "keywords": [
+    "configcat",
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "agent",
+    "feature-flags",
+    "claude",
+    "cursor"
+  ],
+  "author": "ConfigCat",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.9",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.8.2"
+  },
+  "jest": {
+    "preset": "ts-jest/presets/default-esm",
+    "testEnvironment": "node",
+    "moduleNameMapper": {
+      "^(\\.{1,2}/.*)\\.js$": "$1"
+    },
+    "transform": {
+      "^.+\\.ts$": [
+        "ts-jest",
+        {
+          "useESM": true
+        }
+      ]
+    }
+  }
+}
