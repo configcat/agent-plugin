@@ -1,14 +1,22 @@
 {
   "name": "configcat",
-  "mcpServers": ".mcp.json",
   "displayName": "ConfigCat",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "ConfigCat agent skills and MCP server for feature flag management.",
   "author": {
     "name": "ConfigCat",
     "email": "support@configcat.com"
   },
   "license": "MIT",
-  "keywords": ["configcat", "feature-flags", "feature-management", "mcp"],
-  "logo": "assets/logo.svg"
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "configcat", 
+    "feature-flags", 
+    "feature-management",
+    "targeting",
+    "rollout",
+    "mcp"
+  ],
+  "mcpServers": ".mcp.json",
+  "skills": "./skills/"
 }
