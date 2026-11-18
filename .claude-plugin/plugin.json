@@ -18,5 +18,6 @@
     "targeting",
     "rollout",
     "mcp"
-  ]
+  ],
+  "mcpServers": "./.mcp.json"
 }
