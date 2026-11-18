@@ -8,7 +8,7 @@
     "url": "https://configcat.com"
   },
   "homepage": "https://configcat.com",
-  "repository": "https://github.com/configcat/agent-tools",
+  "repository": "https://github.com/configcat/agent-plugin",
   "license": "MIT",
   "logo": "assets/logo.svg",
   "keywords": [
