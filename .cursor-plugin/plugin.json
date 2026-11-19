@@ -2,10 +2,11 @@
   "name": "configcat",
   "displayName": "ConfigCat",
   "version": "0.1.0",
-  "description": "ConfigCat agent skills and MCP server for feature flag management.",
+  "description": "Manage ConfigCat feature flags, user targeting, rollouts, remote configs, products and environments.",
   "author": {
     "name": "ConfigCat",
-    "email": "support@configcat.com"
+    "email": "support@configcat.com",
+    "url": "https://configcat.com"
   },
   "license": "MIT",
   "logo": "assets/logo.svg",

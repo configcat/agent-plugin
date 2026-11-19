@@ -1,6 +1,6 @@
 {
   "name": "configcat",
-  "description": "ConfigCat agent skills and MCP server for feature flag management.",
+  "description": "Manage ConfigCat feature flags, user targeting, rollouts, remote configs, products and environments.",
   "version": "0.1.0",
   "author": {
     "name": "ConfigCat",
